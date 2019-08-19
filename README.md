@@ -1,5 +1,15 @@
 # Correlation Clustering with Same-Cluster Queries Bounded by Optimal Cost
-This repository contains the code and data for reproducing the experiments in the paper "Correlation Clustering with Same-Cluster Queries Bounded by Optimal Cost" by Barna Saha and Sanjay Subramanian.
+This repository contains the code and data for reproducing the experiments in the paper ["Correlation Clustering with Same-Cluster Queries Bounded by Optimal Cost"](https://arxiv.org/abs/1908.04976) by Barna Saha and Sanjay Subramanian.
+## Citation
+If you use this work in your research, please cite our paper:
+```
+@inproceedings{SahaSubramanian19,
+    author = {Barna Saha and Sanjay Subramanian},
+    title = {{Correlation Clustering with Same-Cluster Queries Bounded by Optimal Cost}},
+    booktitle = {European Symposium on Algorithms ({ESA})},
+    year = {2019}
+}
+```
 ## Requirements
 This code was tested on MacBook Pro and on Ubuntu 16.0 servers. The code was run using Python 2.7. The other dependencies are scipy and numpy. The Gurobi software and a Gurobi license is required for the Integer Linear Program (ILP) and Linear Program (LP) results.
 ## Running experiments
